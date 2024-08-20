@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paperwings</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/chat-styles.css">
+
+    <script src="js/chat.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.4.0/sockjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+</head>
+    <body>
+        <iframe id="messageList" name="messageList" ></iframe>
+        <div>
+            <form id="messageForm">
+                <label for="content">Message:</label>
+                <input type="text" id="content" name="content" required>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </body>
+</html>
